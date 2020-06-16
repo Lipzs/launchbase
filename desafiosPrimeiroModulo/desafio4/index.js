@@ -16,14 +16,14 @@ const avarage = getAvarageTransactionValue();
 
 const count = getTransactionCount();
 
-console.log(`User: ${user.name}`)
-console.log('Highest transactions: ')
-console.log(higherCredit)
-console.log(higherDebit)
-console.log(`Avarage Transaction Value: ${avarage}`)
-console.log('All transactions: ')
-console.log(count)
-console.log(`Balance: ${user.balance}`)
+console.log(`User: ${user.name}`);
+console.log('Highest transactions: ');
+console.log(higherCredit);
+console.log(higherDebit);
+console.log(`Avarage Transaction Value: ${avarage}`);
+console.log('All transactions: ');
+console.log(count);
+console.log(`Balance: ${user.balance}`);
 
 function createTransaction(transaction) {
   user.transactions.push(transaction);
@@ -84,5 +84,5 @@ function getTransactionCount() {
   result.debit = typeDebit;
 
   return result
-}
+};
 
