@@ -6,6 +6,14 @@
   Desafio 1-1: Primeiros passos com JS
 </h3>
 
+## :rocket: Sobre o desafio
+
+Desafios para fortalecer alguns conceitos, entre eles:
+
+- **Variáveis**;
+- **Condicionais**;
+- **Operadores**.
+
 ### Cálculo de IMC
 
 Crie um programa para calcular o IMC e nível de obesidade de uma pessoa.
